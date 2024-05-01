@@ -14,24 +14,24 @@ function fizzBuzz(){
         //chiamo le sue classi e aggiungo la classe item
         element.classList.add("item");
 
-        // Sostituizione multipli di 3 con "Fizz"
-        if(i % 3 === 0){
-            console.log("Fizz");
-            //aggiunta parola Fizz al div
-            element.textContent += "Fizz ";
-        // Sostituzione multipli di 5 con "Buzz"
-        }else if(i % 5 === 0){
-        // Sostituzione multipli di 3 e 5 con "FizzBuzz"
-            console.log("Buzz");
-            element.textContent += "Buzz";
-        }else if(i % 3 === 0 || i % 5 === 0) {
-            console.log("FizzBuzz");
-            element.textContent = "FizzBuzz";
-        }else{
-        // Altrimenti stampare il numero
-            console.log(i);
-            element.textContent = i;
-        }
+    // Sostituzione multipli di 3 e 5 con "FizzBuzz"
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log('fizzBuzz');
+        //aggiunta parola Fizz al div
+        element.textContent =  'fizzbuzz';
+    // Sostituizione multipli di 3 con "Fizz"    
+    } else if(i % 3 === 0){
+        console.log('Fizz');
+        element.textContent =  'Fizz';
+    // Sostituzione multipli di 5 con "Buzz"
+    } else if(i % 5 === 0){
+        console.log('Buzz')
+        element.textContent =  'Buzz'
+    } else {
+    // Altrimenti stampare il numero
+        console.log(i);
+        element.textContent = i;
+    }
         container.appendChild(element);
     }
 
