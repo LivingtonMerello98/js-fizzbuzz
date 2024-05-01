@@ -32,7 +32,7 @@ function fizzBuzz(){
         console.log(i);
         element.textContent = i;
     }
-        container.appendChild(element);
+        container.appendChild(element)
     }
 
 }
