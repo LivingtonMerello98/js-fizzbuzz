@@ -1,7 +1,12 @@
 'use strict'
 
 console.log("sono correttamente collegato al doc.html")
-// Iterazione da 1 a 100
+
+//bonus2
+const title = document.getElementById('title');
+title.classList.add( 'text-center','fs-32','py-30');
+title.textContent="FizzBuzz";
+
 
 //bonus1
 function fizzBuzz(){

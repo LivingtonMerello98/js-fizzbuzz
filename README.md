@@ -18,3 +18,4 @@ else if (i % 3 === 0 && i % 5 === 0)
 // Altrimenti stampare il numero
 else  
     console.log(i);
+

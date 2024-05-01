@@ -13,8 +13,25 @@
 
 /*classe aggiunta in js*/
 .item{
+    text-align: center;
     margin: 5px;
-    padding: 65px;
+    padding: 10px;
+    width: 9%;
+    height: auto;
     border: 1px solid #141414;
     border-radius: 5px;
+}
+
+
+/*bonus 2*/
+.text-center{
+    text-align: center;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+
+.py-30{
+    padding: 30px 0;
 }
