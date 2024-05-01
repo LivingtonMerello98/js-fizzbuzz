@@ -3,10 +3,14 @@
 console.log("sono correttamente collegato al doc.html")
 
 //bonus2
+const body = document.querySelector('body')
 const title = document.getElementById('title');
-title.classList.add( 'text-center','fs-32','py-30');
-title.style.color='#f48167';
-title.textContent="FizzBuzzDOM";
+
+body.classList.add('bg-color')
+body.style.fontFamily='"Roboto", sans-serif'
+
+title.classList.add( 'text-center','fs-32','py-30','text-white');
+title.innerHTML="<h1>FizzBuzzDOM</h1>";
 
 
 //bonus1
