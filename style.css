@@ -10,3 +10,11 @@
     justify-content: center;
     align-items: center;
 }
+
+/*classe aggiunta in js*/
+.item{
+    margin: 5px;
+    padding: 65px;
+    border: 1px solid #141414;
+    border-radius: 5px;
+}
