@@ -24,8 +24,15 @@
 
 
 /*bonus 2*/
+
+.container{
+    width: 80%;
+}
 .text-center{
     text-align: center;
+}
+.text-white{
+    color: white;
 }
 
 .fs-32{
@@ -34,4 +41,21 @@
 
 .py-30{
     padding: 30px 0;
+}
+
+
+.fizz{
+    background-color: rgb(76, 131, 76);
+}
+
+.buzz{
+    background-color: rgb(234, 186, 96);
+}
+
+.fizzBuzz{
+    background-color: rgb(255, 97, 97);
+}
+
+.number{
+    background-color: lightblue;
 }
